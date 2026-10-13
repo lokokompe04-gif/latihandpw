@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" 
+	content="width=device-width, initial-scale=1.0">
+	<title>Curriculum Vitae (CV)</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--=====================Container Utama====================-->
+	<div class="container">
+
+		<h1>CURRICULUM VITAE (CV)</h1>
+		<hr>
+		<!--==============FOTO DAN IDENTITAS DIRI==============-->
+		<table class="identitas">
+			<tr>
+
+				<td class="kolom-foto">
+				<img	src="FotoPass.jpeg"alt="Foto Profil" width="120"
+				class="foto profil">
+			</td>
+			
+			<td class="kolom-identitas">
+				<h2>Identitas Diri</h2>
+				<table class="data-identitas">
+					<tr>
+						<td><strong>Nama Lengkap</strong></td>
+						<td>:</td>
+						<td>GABRIEL THEODORUS BERE MALI</td>
+					</tr>
+					<tr>
+						<td><strong>NIM</strong></td>
+						<td>:</td>
+						<td>51250131</td>
+					</tr>
+					<tr>
+						<td><strong>Progtam Studi</strong></td>
+						<td>:</td>
+						<td>Teknologi Informasi</td>
+					</tr>
+					<tr>
+						<td><strong>Tempat, Tanggal Lahir</strong></td>
+						<td>:</td>
+						<td>Mesi, 1 Oktober 1945</td>
+					</tr>
+					<tr>
+						<td><strong>Alamat</strong></td>
+						<td>:</td>
+						<td>Kefamenanu, Timor Tengah Utara, Nusa Tenggara Timur</td>
+					</tr>
+					<tr>
+						<td><strong>No. HP</strong></td>
+						<td>:</td>
+						<td>082147509317</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+	<hr>
+	<h2>Profil Singkat</h2>
+	<p>Saya adalah mahasiswa Program Studi <strong>Teknologi Informasi Universitas Timor</strong>.
+	   Saya memiliki ketertarikan terhadap perkembangan, khususnya dalam bidang <mark> Web Development<mark>.
+	   Saya memiliki motivasi untuk terus belajar dan mengembangkan kemampuan dalam bidang teknologi informasi
+	   agar dapat memberikan manfaat bagi masyarakat.
+	</p>
+	<div class="grid-informasi">
+		<div class="card">
+		<h2>Riwayat Pendidikan</h2>
+	<ol>
+		<li>SD DI SINI</li>
+		<li>SMPN DI SANA</li>
+		<li>SMA DIMANA MANA</li>
+	</ol>
+	</div>
+	<div class="card">
+	<h2>Hobi</h2>
+	<ul>
+		<li>TIDUR</li>
+		<li>SEPAKBOLA</li>
+		<li>LEMPAR MANGGA</li>
+	</ul>
+	</div>
+	<div class="card">
+	<h2>Bidang Minat</h2>
+	<ul>
+		<li>Web Development</li>
+		<li>UI/UX Design</li>
+		<li>Jaringan Komputer</li>
+		<li>Data Analisis</li>
+	</ul>
+	</div>
+	</div>
+	<p>Bidang yang paling saya minati adalah <strong><u>Web Development<u></strong>
+	   karena saya ingin mampu membuat website yang menarik, informatif, dan bermanfaat.
+	</p>
+	<hr>
+	<h2>Mata Kuliah Semester Ini</h2>
+	<table border="Mata Kuliah">
+		<tr>
+			<th>No.</th>
+			<th>Kode MK</th>
+			<th>Nama Mata Kuliah</th>
+			<th>SKS</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>TI201</td>
+			<td>Pemrograman Web Dasar</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>TI202</td>
+			<td>Basis Data</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>TI203</td>
+			<td>Organisasi dan Arsitektur Komputer</td>
+			<td>3</td>
+		</tr>
+	</table>
+	<hr>
+	<h2>Target dan Cita-Cita</h2>
+	<p>
+		Target saya selama menempuh pendidikan di Program Studi Teknologi Informasi 
+		adalah meningkatkan kemampuan dalam <em>pemrograman dan pengembangan teknologi</em>.
+		Saya berharap dapat menjasi seorang <strong> Web Development</strong> yang mampu 
+		menghasilkan aplikasi web yang bermanfaat bagi masyarakat.
+	</p>
+	<p>Kunjungi website resmi <a href="https://unimor.ac.id" target="_blank"> Universitas Timor </a></p>
+	
+	<h2>form kontak</h2>
+	<p>silahkan mengisi form berikut jika ingin menghubungi saya</p>
+
+	<form id="formkontak">
+		<div class="form-group">
+			<label label for="nama">Nama Lengkap</label>
+			<input type="text" id="nama" name="nama" placeholder="Masukan nama lengkap anda">
+		</div>
+
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Masukkan email">
+		</div>
+		<div class="form-group">
+			<label>No. Telepon</label>
+			<input type="telepon" id="telepon" name="telepon" placeholder="Masukan No. Telepon anda">
+		</div>
+		<div class="form-group">
+			<label for="minat"> Bidang Minat</label>
+			<select id="minat" name="minat">
+				<option value="">--Pilih Bidang Minat--</option>
+				<option value="web">Web Development</option>
+				<option value="uiux">UI/UX Design</option>
+				<option value="ai">Artivicial Inteligence</option>
+				<option value="data">Data Analisis</option>
+			</select>
+		</div>
+		<div>
+			<label for="pesan">pesan</label>
+			<textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan Pesan Anda"></textarea>
+		</div>
+		<div>
+			<button type="submit">Kirim Pesan Ke WhatsApp</button>
+			<button type="reset">Reset</button>
+		</div>
+	</form>
+	<hr>
+	<p>CV ini dibuat sebagai latihan Mata Kuliah Pemrograman Web Dasar</p>
+	<p>Made With Love By Gaudensia Felmina Senai Cantik</p>
+
+	</div>
+	<script	src="FormKontak.js"></script>
+</body>
+</html>
